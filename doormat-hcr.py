@@ -1,0 +1,15 @@
+value=input("")
+l=value.split()
+n=int(l[0])
+m=int(l[1])
+for i in range(0,int(n/2)):
+    print("-"*int((m-(i*2+1)*3)/2),end="")
+    print((".|."*(i*2+1)),end="")
+    print("-"*int((m-(i*2+1)*3)/2))
+    #print("\n")    
+print(("-"*(int((m-7)/2)))+"WELCOME"+("-"*(int((m-7)/2))))
+for i in range(int(n/2)-1,-1,-1):
+    print("-"*int((m-(i*2+1)*3)/2),end="")
+    print((".|."*(i*2+1)),end="")
+    print("-"*int((m-(i*2+1)*3)/2))
+    #print("\n") 
